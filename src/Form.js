@@ -12,6 +12,7 @@ function Form(props) {
       title,
       description
     }
+    console.log(newIdea);
     props.addIdea(newIdea);
     clearInputs();
   }
